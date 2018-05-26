@@ -2,7 +2,7 @@ def loop_iterator(number_of_times)
   counter = 0 
   phrase = "Welcome to Flatiron School's Web Development Course!"
   loop do
-    puts "This and all the other methods take an argument of an integer"
+    puts phrase
     counter += 1
     break if counter == number_of_times
   end
